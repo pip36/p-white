@@ -10,7 +10,7 @@
 
       <div :class="{'info': true, 'info-container-center': !aboutActive}" >
         <div class="image-container">
-          <img class="profile-pic" src="/profpic1.png"/>
+          <img class="profile-pic" src="~/assets/profpic.jpg"/>
         </div>
         <transition name="fade">
           <div class="text" v-show="aboutActive">    
@@ -51,12 +51,10 @@
 
 <script>
 import smoothscroll from 'smoothscroll-polyfill'
-import AppLogo from '~/components/AppLogo.vue'
 import Carousel from '~/components/Carousel.vue'
 
 export default {
   components: {
-    AppLogo,
     Carousel
   },
   data () {

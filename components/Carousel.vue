@@ -65,7 +65,7 @@
 </template>
 
 <script>
-import TechIcon from '@/Components/TechIcon'
+import TechIcon from '~/components/TechIcon'
 
 export default {
   name: 'Carousel',
@@ -90,7 +90,7 @@ export default {
           technologies: ['html','css','javascript']
         },
         {
-          image: "SamiWebsite.PNG", 
+          image: "Sami.jpg", 
           title: 'Sami\'s oboe website',
           repoUrl: 'https://github.com/pip36/website-sami',
           url: 'http://www.samitaylor.com/',
@@ -100,7 +100,7 @@ export default {
           technologies: ['html','css','jquery','rails']
         },
         {
-          image: "Shape.PNG",
+          image: "Shape.jpg",
           title: 'Shape Burst',
           url: 'https://play.google.com/store/apps/details?id=com.OB.ShapeBurst',
           description: `I created this android app before I started learning web development seriously. I decided I wanted to release an app on the app
@@ -108,7 +108,7 @@ export default {
           technologies: ['android', 'c-sharp']
         },
         {
-          image: "Wally.PNG",
+          image: "Wally.jpg",
           title: 'Where\'s Wally',
           repoUrl: 'https://github.com/pip36/wheres_wally',
           url: 'https://floating-everglades-97160.herokuapp.com/',
@@ -117,7 +117,7 @@ export default {
           technologies: ['html','css','javascript','rails']
         },
         {
-          image: "Quote.PNG",
+          image: "Quote.jpg",
           title: 'Quote Machine',
           repoUrl: 'https://github.com/pip36/quote-machine',
           url: 'https://quote-machine-18705.firebaseapp.com/',
@@ -142,7 +142,7 @@ export default {
           technologies: ['html','javascript']
         },
         {
-          image: "CatBook.PNG",
+          image: "Catbook.jpg",
           title: 'Catbook',
           repoUrl: 'https://github.com/pip36/cat-book-app',
           url: 'https://powerful-harbor-87739.herokuapp.com/',
@@ -151,7 +151,7 @@ export default {
           technologies: ['html','css','javascript', 'rails']
         },
         {
-          image: "Crime.PNG",
+          image: "Crime.jpg",
           title: 'Crime Map',
           url: 'https://crime-uk.firebaseapp.com/',
           description: `A simple little app for displaying crime data in the uk. Pick a location and month and it will show you 
@@ -160,7 +160,7 @@ export default {
            technologies: ['html','javascript']
         },
         {
-          image: "Quiz.PNG",
+          image: "Quiz.jpg",
           title: 'Quizzical',
           repoUrl: 'https://github.com/pip36/quiz',
           url: 'https://quizz-e6536.firebaseapp.com/',
@@ -170,7 +170,7 @@ export default {
            technologies: ['html','css','vue']
         },
         {
-          image: "Nexo.PNG",
+          image: "Nexo.jpg",
           title: 'Nexocharge Website',
           repoUrl: 'https://github.com/pip36/NexoCharge',
           url: 'https://nexocharge.firebaseapp.com/',

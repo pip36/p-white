@@ -11,12 +11,10 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.0.9/css/all.css'},
-      { rel: 'stylesheet', href: '/globalstyle.css'}
+      { rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.0.9/css/all.css'}
     ]
   },
   /*
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1">
   ** Customize the progress bar color
   */
   loading: { color: '#3B8070' },
