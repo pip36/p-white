@@ -23,9 +23,6 @@
               <br><br>
               I keep most of my projects within github, which you can visit below, and a selection of these projects 
               are up and running from the projects page.
-              <br><br>
-              Please feel free to contact me about any web development opportunities via email at the top of the page, 
-              or if you have a question to ask.
             </p>  
           </div>
         </transition>

@@ -74,7 +74,7 @@ export default {
   },
   data () {
     return {
-      mode: { name: 'SLIDE MODE ON', val: 1 },
+      mode: { name: 'SLIDE', val: 1 },
       minDiameter: 900,
       diameter: 900,
       spin: 0,
@@ -211,12 +211,12 @@ export default {
     },
 
     toggleMode () {
-      if(this.mode.name === 'FLIP MODE ON') {
-        this.mode.name = 'SLIDE MODE ON'
+      if(this.mode.name === 'FLIP') {
+        this.mode.name = 'SLIDE'
         this.mode.val = 1
       }
       else {
-        this.mode.name = 'FLIP MODE ON'
+        this.mode.name = 'FLIP'
         this.mode.val = -this.imageCount + 1
       }
     },
